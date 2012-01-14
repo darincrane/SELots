@@ -1,241 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
-
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
-
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
-
-
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
-
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
-
-
-      #header {
-        background-image: url("/assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
-
-
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
-
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
-
-
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
-
-
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
-
-      .filename {
-        font-style: italic;
-      }
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
+    <head>
+        <title>Boxes</title>
+        <link rel="stylesheet" href="stylesheetnew.css" type="text/css" media="screen"/>
+    </head>
+    
+    <body style="background-color: blue">
+         
+        <div class="header">
+            <div class="logo">
+                <a> <img src="LotImages/SmallLogo.gif" style="height: 95%; width: 95%" alt="logo"</img></a>
+            </div>
+            <p class="header1"> Suburban Estates Lots For Sale </p>
+            <p class="header2"> Listed by:   Darin G. Crane - GRI // Prudential Results Realty // (407) 301-6664  //  darincrane@aol.com</p>
         </div>
-
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
+        <div class="headerA">
+            <p class="header3"> Suburban Estates - Holopaw - Florida - For Recreational Use Only - Bring your ATVs, Four Wheel Drives, Etc.</p>    
         </div>
+    <!--Lot Number One --!>
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 35 27 31 6000 4234 000J </p>
+                <p class="description"> This is a 2.5 acre lot located just<br> South of the West end of the powerline.</P>
+                <p class="price">$ 7,000</p>
+            </div>
 
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
-            </li>
-          </ol>
+            <div class="bbox">
+                <a> <img src="LotImages/hemingway125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
         </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
-    </div>
-  </body>
+        
+    <!-- Lot Number Two --!>    
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 20 27 32 0000 3241 001H </p>
+                <p class="description"> This is a 1.25 acre lot located<br> not far from the main gate.</P>
+                <p class="price">$ 4,900</p>
+            </div>
+            <div class="bbox">
+                <a> <img src="LotImages/amans125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- Lot Number Tnree --!>    
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 35 27 31 6000 4413 002J</p>
+                <p class="description"> This is a 1.25 acre lot located<br> in the Southwest corner.</P>
+                <p class="price">$ 3,900</p>
+            </div>
+        
+            <div class="bbox">
+                <a> <img src="LotImages/burnett125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- Lot Number Four --!>    
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 30 27 32 6000 3133 000G </p>
+                <p class="description"> This is a 1.25 acre lot located<br> North of the gun range.</P>
+                <p class="price">$ 3,900</p>
+            </div>
+            
+            <div class="bbox">
+                <a> <img src="LotImages/sharp125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- Lot Number Five --!>    
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 20 27 32 0000 4241 002H </p>
+                <p class="description"> This is a 2.5 acre lot located<br> just Northeast of the parking area.</P>
+                <p class="price">$ 9,900</p>
+            </div>
+            
+            <div class="bbox">
+                <a> <img src="LotImages/winter125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- Lot Number Six --!>    
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 36 27 31 6000 000K 2250 </p>
+                <p class="description"> This is a 2.5 acre lot located<br> in the Southwest Corner.</P>
+                <p class="price">$ 3,800</p>
+            </div>
+            
+            <div class="bbox">
+                <a> <img src="LotImages/miyamoto125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+    
+    <!-- Lot Number Seven --!>
+                
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 35 27 31 6000 4234 000J </p>
+                <p class="description"> This is a 2.5 acre lot located in<br>the SW Corner just South of the powerline.</p>
+                <p class="price">$ 7,000</p>
+            </div>
+        
+            <div class="bbox">
+                <a> <img src="LotImages/hemingway125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- Lot Number Eight --!>   
+        
+        <div class="abox">
+            <div class="info">
+                <p class="parcel"> PID # 25 27 31 9995 0312 001E</p>
+                <p class="description"> This is a 1.25 acre lot located <br>about half way down the powerline.</p>
+                <p class="price">$ 2,900</p>
+            </div>
+        
+            <div class="bbox">
+                <a> <img src="LotImages/mirabile125.jpg" style="height: 100%; width: 100%" alt="lot image"</img> </a>
+            </div>
+        </div>
+        
+    <!-- End of Lots --!>
+        
+        <div class="footer">
+            
+            <a> <img src="LotImages/disclaimer.jpg" style="height: 70%; width: 70%; margin-left:15%; margin-top:.5%; border: solid 2px black" alt="disclaimer image"</img> </a>
+            <p class="footer1"> Prudential Results Realty - 2023 Hickory Tree Road - Saint Cloud, Florida  34772  //  407-498-3838 Office   407-301-6664 Cell //  darincrane@aol.com<p>
+        </div>       
+    </body>
 </html>
