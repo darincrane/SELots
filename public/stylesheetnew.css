@@ -1,0 +1,132 @@
+
+
+.header{
+    width: 98%;
+    height:60px;
+    background: yellow;
+    border-radius: 10px 10px;
+    border: 1px ridge black;
+}
+
+.headerA{
+    margin-top: 3px;
+    width: 97.5%;
+    height:30px;
+    background: silver;
+    text-align: center;
+    border: 3px ridge black;
+    
+}
+p.header1{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+
+p.header2{
+    margin: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+p.header3{
+    margin: 4px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 5px 2px black;
+    
+}
+
+.logo{
+    float: left;
+    margin: 2px;
+    
+    
+}
+
+
+
+
+.abox{
+    margin: 1px;
+    float: left;
+    width: 48%;
+    height: 127px;
+    background: grey;
+    border: solid 5px silver;
+    
+
+}
+
+.bbox {
+    width: 167px;
+    height: 125px;
+    float: right;
+    top: 30%;
+    left: 30%;
+    color: white;
+    border-radius: 15px;
+    border: thin ridge black;
+}  
+.info{
+    margin: 2px;
+    float: left;
+    width: 60%;
+    height: 125px;
+    text-align: center;
+    
+}
+    
+
+p.parcel{
+    margin: 10px;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+p.description{
+    margin: 0px;
+    color: white;
+
+    
+}
+
+p.price{
+    margin: 0px;
+    color: yellow;
+    text-outline: 10px 10px;
+    font-size: 30px;
+    
+}
+
+.footer{
+    float: left;
+    margin: 2px;
+    width: 97%;
+    height: 125px;
+    background: grey;
+    border: solid 5px silver;
+}
+    
+p.footer1{
+    width: 100%;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+    word-spacing: 3px;
+}
+    
+    
+    
+    
+    
+    
+    
+
+
+
